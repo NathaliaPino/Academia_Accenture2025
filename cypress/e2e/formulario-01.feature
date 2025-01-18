@@ -9,6 +9,10 @@ Funcionalidade: formulario-01 - Formulario Portal
     Quando preencho as informações obrigatórias da aba Enter Vehicle Data com sucesso
     E preencho as informações obrigatórias da aba Enter Insurant Data com sucesso
     E preencho as informações obrigatórias da aba Enter Product Data com sucesso
+    E seleciono um plano na aba Select Price Option
+     
+    
+
 
 
     

@@ -38,6 +38,13 @@ And('preencho as informações obrigatórias da aba Enter Product Data com suces
     cy.btn_next_pd()
 })
 
+And('seleciono um plano na aba Select Price Option', () => {
+    cy.selecionar_plano()
+    cy.btn_nxt_spo()
+})
+
+
+
 
 
 
