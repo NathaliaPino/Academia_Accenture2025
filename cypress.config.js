@@ -7,7 +7,7 @@ module.exports = defineConfig({
     viewportHeight: 720,    
     watchForFileChanges: false,
     specPattern: 'cypress/e2e/**/*.feature',
-    baseUrl: 'http://sampleapp.tricentis.com/101/app.php',
+    baseUrl: 'http://sampleapp.tricentis.com/',
 
     
     setupNodeEvents(on, config) {
