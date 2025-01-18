@@ -28,6 +28,15 @@ And('preencho as informações obrigatórias da aba Enter Insurant Data com suce
     cy.btn_next_vd()
 })
 
+And('preencho as informações obrigatórias da aba Enter Product Data com sucesso', () => {
+    cy.startDate()
+    cy.insuranceSum()
+    cy.meritRating()
+    cy.damageInsurance()
+    cy.optionalProducts()
+    cy.courtesyCar()
+    cy.btn_next_pd()
+})
 
 
 

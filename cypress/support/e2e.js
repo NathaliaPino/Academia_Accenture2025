@@ -18,4 +18,4 @@ import './commands'
 import './pages/home.page'
 import './pages/enterVehicleData.page'
 import './pages/enterInsurantData.page.js'
-
+import './pages/enterProductData.page.js'

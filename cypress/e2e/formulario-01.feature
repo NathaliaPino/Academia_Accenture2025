@@ -8,6 +8,7 @@ Funcionalidade: formulario-01 - Formulario Portal
     E entro na página de formulário para cotação de automovel
     Quando preencho as informações obrigatórias da aba Enter Vehicle Data com sucesso
     E preencho as informações obrigatórias da aba Enter Insurant Data com sucesso
+    E preencho as informações obrigatórias da aba Enter Product Data com sucesso
 
 
     
