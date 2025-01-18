@@ -16,5 +16,6 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import './pages/home.page'
-import './pages/formulario.page'
+import './pages/enterVehicleData.page'
+import './pages/enterInsurantData.page.js'
 
