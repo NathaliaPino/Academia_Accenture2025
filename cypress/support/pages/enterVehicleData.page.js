@@ -5,7 +5,7 @@ const ASSENTOS = '#numberofseats'
 const COMBUSTIVEL = '#fuel'
 const PRECO = '#listprice'
 const QUILOMETRAGEM_ANUAL = '#annualmileage'
-const BTN_NEXT_VD = '#nextenterproductdata'
+const BTN_NEXT_VD = '#nextenterinsurantdata'
 
 
 Cypress.Commands.add('Make', () => {

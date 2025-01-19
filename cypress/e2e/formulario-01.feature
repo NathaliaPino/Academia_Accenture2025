@@ -12,7 +12,13 @@ Funcionalidade: formulario-01 - Formulario Portal
     E seleciono um plano na aba Select Price Option
     E preencho as informações obrigatórias da aba Send Quote
     Então quando clico em enviar na ultima aba, uma mensagem de sucesso aparece
+
+
+  
      
+
+    
+      
     
 
 

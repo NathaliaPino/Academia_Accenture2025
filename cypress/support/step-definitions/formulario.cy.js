@@ -14,7 +14,7 @@ When('preencho as informações obrigatórias da aba Enter Vehicle Data', () =>{
     cy.fuelType()
     cy.listPrice()
     cy.annualMileage()
-    cy.btn_next()
+    cy.btn_next_vd()
 })
 
 And('preencho as informações obrigatórias da aba Enter Insurant Data', () => {
@@ -25,7 +25,7 @@ And('preencho as informações obrigatórias da aba Enter Insurant Data', () => 
     cy.zipCode()
     cy.occupation()
     cy.hobbies()
-    cy.btn_next_vd()
+    cy.btn_next_id()
 })
 
 And('preencho as informações obrigatórias da aba Enter Product Data', () => {

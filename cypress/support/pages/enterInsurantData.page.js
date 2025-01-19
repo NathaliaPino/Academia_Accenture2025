@@ -5,7 +5,7 @@ const PAIS = '#country'
 const ZIPCODE = '#zipcode'
 const OCUPACAO = '#occupation'
 const PASSATEMPO = 'label.ideal-radiocheck-label:contains("Speeding")'
-const BTN_NEXT = '#nextenterinsurantdata'
+const BTN_NEXT = '#nextenterproductdata'
 
 Cypress.Commands.add('firstName', () => {
     cy.get(PRIMEIRO_NOME).type('Nathalia') 
@@ -35,7 +35,7 @@ Cypress.Commands.add('hobbies', () => {
     cy.get(PASSATEMPO).click()
 })
 
-Cypress.Commands.add('btn_next', () => {
+Cypress.Commands.add('btn_next_id', () => {
     cy.get(BTN_NEXT).click()
 })
 
