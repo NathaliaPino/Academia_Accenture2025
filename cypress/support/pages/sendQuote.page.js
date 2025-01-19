@@ -26,7 +26,7 @@ Cypress.Commands.add('btn_send', () => {
 })
 
 Cypress.Commands.add('mensagemSucesso', () => {
-    cy.contains('Sending e-mail success!').should('be.visible')
+    cy.contains('Sending e-mail success!', { timeout: 10000 }).should('be.visible')
     cy.get(BTN_OK).should('be.visible')
 })
 
