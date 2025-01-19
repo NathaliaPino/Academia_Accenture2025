@@ -2,11 +2,11 @@ Given('que acesso o portal tricentis', () => {
     cy.visit('/')
 })
 
-And('entro na página de formulário para cotação de automovel', () => {
+And('entro na página de formulário para cotação de automóvel', () => {
     cy.acessarFormularioAutomovel()
 })
 
-When('preencho as informações obrigatórias da aba Enter Vehicle Data com sucesso', () =>{
+When('preencho as informações obrigatórias da aba Enter Vehicle Data', () =>{
     cy.Make()
     cy.enginePerformance()
     cy.dateofManufacture()
@@ -17,7 +17,7 @@ When('preencho as informações obrigatórias da aba Enter Vehicle Data com suce
     cy.btn_next()
 })
 
-And('preencho as informações obrigatórias da aba Enter Insurant Data com sucesso', () => {
+And('preencho as informações obrigatórias da aba Enter Insurant Data', () => {
     cy.firstName()
     cy.lastName()
     cy.dateOfBirth()
@@ -28,7 +28,7 @@ And('preencho as informações obrigatórias da aba Enter Insurant Data com suce
     cy.btn_next_vd()
 })
 
-And('preencho as informações obrigatórias da aba Enter Product Data com sucesso', () => {
+And('preencho as informações obrigatórias da aba Enter Product Data', () => {
     cy.startDate()
     cy.insuranceSum()
     cy.meritRating()
@@ -41,6 +41,18 @@ And('preencho as informações obrigatórias da aba Enter Product Data com suces
 And('seleciono um plano na aba Select Price Option', () => {
     cy.selecionar_plano()
     cy.btn_nxt_spo()
+})
+
+And('preencho as informações obrigatórias da aba Send Quote', () => {
+    cy.email()
+    cy.userName()
+    cy.password()
+    cy.confirmPassword()
+    cy.btn_send()
+})
+
+Then('quando clico em enviar na ultima aba, uma mensagem de sucesso aparece', () => {
+    cy.mensagemSucesso()
 })
 
 

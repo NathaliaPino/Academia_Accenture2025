@@ -1,8 +1,8 @@
-const SELC_GOLD = 'tr > .group > :nth-child(2) > .ideal-radio'
+const SELC_PLATINUM = ':nth-child(3) > .ideal-radio'
 const BTN_NEXT_SPO = '#nextsendquote'
 
 Cypress.Commands.add('selecionar_plano', () => {
-    cy.get(SELC_GOLD).click()
+    cy.get(SELC_PLATINUM).click()
 })
 
 Cypress.Commands.add('btn_nxt_spo', () => {
