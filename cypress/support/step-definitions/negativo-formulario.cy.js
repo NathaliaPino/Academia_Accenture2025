@@ -4,6 +4,6 @@ When('não preencho alguma das informações obrigatórias', () => {
     cy.btn_next_pd()
 })
 
-Then('não conseguirei acessar a aba de Select Price Option', () => {
+Then('não conseguirei acessar as informações da aba de Select Price Option', () => {
     cy.SemAcessoApagina()
 })
